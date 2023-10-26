@@ -167,7 +167,7 @@ def parse_cryptocurrency_links() -> [str]:
 
 
 if __name__ == "__main__":
-    # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy()) # For Widnows
+    # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy()) # For Windows
 
     header_of_request = {
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
